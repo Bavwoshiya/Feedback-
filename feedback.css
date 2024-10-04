@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: overpass;
+    width: 100vw;
+}
+.container {
+    background-color: hsl(228, 63%, 7%);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px;
+    width: 400px;
+
+}
+.price {
+padding: 10px;
+border-radius: 40px;
+background-color: hsl(229, 10%, 35%);
+margin-bottom: 7px;
+}
+.word {
+    color: hsl(208, 100%, 97%);
+    margin-top: 10px;
+}
+.word2 {
+    color: hsl(212, 7%, 44%);
+    margin-top: 20px;
+}
+button {
+
+    margin: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: hsl(229, 10%, 35%);
+}
+button {
+    color: hsl(208, 12%, 73%);
+    margin-top: 40px;
+    width: 40px;
+}
+button:hover{
+    background-color: rgb(249, 118, 25);
+    color: black; 
+}
+.baby {
+    background-color: rgb(249, 118, 25);
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    color: black;
+}
+.baby:hover{
+    background-color: white;
+}
+
+
+.second {
+    background-color: hsl(228, 63%, 7%);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px;
+    width: 350px;
+}
+.text {
+    color: hsl(208, 100%, 97%);
+    margin-top: 10px;
+    text-align: center;
+}
+.text2 {
+    color: hsl(212, 7%, 44%);
+    margin-top: 20px;
+}
+.second img {
+    margin-left: 50px;
+}
+.thankU {
+    display: none;
+}
